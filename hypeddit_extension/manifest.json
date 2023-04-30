@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Hypeddit Direct Download",
+    "version": "1.0",
+    "description": "Skip the Hypeddit download gate and download the track directly",
+    "permissions": ["tabs"],
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup/index.html"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "64": "icon.png",
+        "128": "icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [{
+        "matches": ["https://hypeddit.com/*"],
+        "js": ["content.js"]
+    }]
+}
