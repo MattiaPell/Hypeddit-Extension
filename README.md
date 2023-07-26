@@ -1,5 +1,7 @@
 # Hypeddit-Extension
 
+#TODO: Readme english translation 
+
 Extension Chrome de Téléchargement Direct Hypeddit.
 
 Cette extension Chrome permet aux utilisateurs de télécharger directement des fichiers musicaux depuis Hypeddit sans passer obligatoirement par la porte de téléchargement. Elle améliore l'expérience utilisateur en offrant un moyen rapide et simple d'accéder et de télécharger de la musique.
